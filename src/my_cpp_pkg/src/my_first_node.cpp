@@ -15,14 +15,14 @@ class MyNode: public rclcpp::Node
     
     private:
 
-    void timerCallBack()
-    {
-        counter_++;
-        RCLCPP_INFO(this->get_logger(), "Hello %d", counter_);
-    }
+        void timerCallBack()
+        {
+            counter_++;
+            RCLCPP_INFO(this->get_logger(), "Hello %d", counter_);
+        }
 
-    rclcpp::TimerBase::SharedPtr timer_;
-    int counter_;
+        rclcpp::TimerBase::SharedPtr timer_;
+        int counter_;
 };
 
 int main(int argc, char **argv){
