@@ -1,2 +1,31 @@
-log/
+# ROS 2 build and install folders
 build/
+install/
+log/
+
+# Python bytecode files
+*.pyc
+__pycache__/
+
+# Editor and OS-specific files
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.bak
+*.tmp
+*.log
+
+# ROS 2-specific files
+dist/
+devel/
+colcon.log
+
+# Other ignored files
+*.orig
+*.patch
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
