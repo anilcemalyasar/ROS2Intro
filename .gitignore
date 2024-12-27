@@ -1,5 +1,9 @@
 # ROS 2 build and install folders
+<<<<<<< HEAD
 build/
+=======
+build/
+>>>>>>> c14603d (creating custom ros2 interfaces)
 install/
 log/
 
