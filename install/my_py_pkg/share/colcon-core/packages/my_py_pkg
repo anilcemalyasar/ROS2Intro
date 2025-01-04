@@ -1,1 +1,1 @@
-example_interfaces:my_robot_interfaces:opencv-python:rclpy
+cv_bridge:example_interfaces:my_robot_interfaces:opencv-python:opencv2:rclpy:sensor_msgs

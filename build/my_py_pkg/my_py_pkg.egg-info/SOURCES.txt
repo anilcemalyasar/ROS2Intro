@@ -23,6 +23,7 @@ my_py_pkg/robot_news_station.py
 my_py_pkg/smartphone.py
 my_py_pkg/template_python_node.py
 my_py_pkg/webcam_image_publisher.py
+my_py_pkg/webcam_image_subscriber.py
 my_py_pkg.egg-info/PKG-INFO
 my_py_pkg.egg-info/SOURCES.txt
 my_py_pkg.egg-info/dependency_links.txt

@@ -33,6 +33,7 @@ setup(
             "hw_status_publisher = my_py_pkg.hw_status_publisher:main",
             "hw_status_subscriber = my_py_pkg.hw_status_subscriber:main",
             "webcam_image_publisher = my_py_pkg.webcam_image_publisher:main",
+            "webcam_image_subscriber = my_py_pkg.webcam_image_subscriber:main",
         ],
     },
 )
