@@ -31,7 +31,8 @@ setup(
             "multiply_two_ints_server = my_py_pkg.multiply_two_ints_server:main",
             "multiply_two_ints_client = my_py_pkg.multiply_two_ints_client:main",
             "hw_status_publisher = my_py_pkg.hw_status_publisher:main",
-            "hw_status_subscriber = my_py_pkg.hw_status_subscriber:main"
+            "hw_status_subscriber = my_py_pkg.hw_status_subscriber:main",
+            "webcam_image_publisher = my_py_pkg.webcam_image_publisher:main",
         ],
     },
 )
