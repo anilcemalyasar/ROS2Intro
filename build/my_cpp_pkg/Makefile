@@ -249,6 +249,19 @@ hardware_status_publisher/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hardware_status_publisher.dir/build.make CMakeFiles/hardware_status_publisher.dir/build
 .PHONY : hardware_status_publisher/fast
 
+#=============================================================================
+# Target rules for targets named hardware_status_subscriber
+
+# Build rule for target.
+hardware_status_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hardware_status_subscriber
+.PHONY : hardware_status_subscriber
+
+# fast build rule for target.
+hardware_status_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hardware_status_subscriber.dir/build.make CMakeFiles/hardware_status_subscriber.dir/build
+.PHONY : hardware_status_subscriber/fast
+
 src/hw_status_publisher.o: src/hw_status_publisher.cpp.o
 .PHONY : src/hw_status_publisher.o
 
@@ -272,6 +285,30 @@ src/hw_status_publisher.s: src/hw_status_publisher.cpp.s
 src/hw_status_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hardware_status_publisher.dir/build.make CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.s
 .PHONY : src/hw_status_publisher.cpp.s
+
+src/hw_status_subscriber.o: src/hw_status_subscriber.cpp.o
+.PHONY : src/hw_status_subscriber.o
+
+# target to build an object file
+src/hw_status_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hardware_status_subscriber.dir/build.make CMakeFiles/hardware_status_subscriber.dir/src/hw_status_subscriber.cpp.o
+.PHONY : src/hw_status_subscriber.cpp.o
+
+src/hw_status_subscriber.i: src/hw_status_subscriber.cpp.i
+.PHONY : src/hw_status_subscriber.i
+
+# target to preprocess a source file
+src/hw_status_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hardware_status_subscriber.dir/build.make CMakeFiles/hardware_status_subscriber.dir/src/hw_status_subscriber.cpp.i
+.PHONY : src/hw_status_subscriber.cpp.i
+
+src/hw_status_subscriber.s: src/hw_status_subscriber.cpp.s
+.PHONY : src/hw_status_subscriber.s
+
+# target to generate assembly for a file
+src/hw_status_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hardware_status_subscriber.dir/build.make CMakeFiles/hardware_status_subscriber.dir/src/hw_status_subscriber.cpp.s
+.PHONY : src/hw_status_subscriber.cpp.s
 
 src/my_first_node.o: src/my_first_node.cpp.o
 .PHONY : src/my_first_node.o
@@ -362,11 +399,15 @@ help:
 	@echo "... uninstall"
 	@echo "... cpp_node"
 	@echo "... hardware_status_publisher"
+	@echo "... hardware_status_subscriber"
 	@echo "... robot_news"
 	@echo "... smartphone"
 	@echo "... src/hw_status_publisher.o"
 	@echo "... src/hw_status_publisher.i"
 	@echo "... src/hw_status_publisher.s"
+	@echo "... src/hw_status_subscriber.o"
+	@echo "... src/hw_status_subscriber.i"
+	@echo "... src/hw_status_subscriber.s"
 	@echo "... src/my_first_node.o"
 	@echo "... src/my_first_node.i"
 	@echo "... src/my_first_node.s"

@@ -23,11 +23,15 @@ ament_target_dependencies(smartphone rclcpp example_interfaces)
 add_executable(hardware_status_publisher src/hw_status_publisher.cpp)
 ament_target_dependencies(hardware_status_publisher rclcpp my_robot_interfaces)
 
+add_executable(hardware_status_subscriber src/hw_status_subscriber.cpp)
+ament_target_dependencies(hardware_status_subscriber rclcpp my_robot_interfaces)
+
 install(TARGETS
   cpp_node
   robot_news
   smartphone
   hardware_status_publisher
+  hardware_status_subscriber
   DESTINATION lib/${PROJECT_NAME}
 )
 

@@ -712,4 +712,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/robot_news.dir/DependInfo.cmake"
   "CMakeFiles/smartphone.dir/DependInfo.cmake"
   "CMakeFiles/hardware_status_publisher.dir/DependInfo.cmake"
+  "CMakeFiles/hardware_status_subscriber.dir/DependInfo.cmake"
   )
