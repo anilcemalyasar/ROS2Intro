@@ -1,1 +1,1 @@
-/home/acy/ros2_ws/install/my_py_pkg:/home/acy/ros2_ws/install/my_cpp_pkg:/home/acy/ros2_ws/install/cpp_pubsub:/opt/ros/humble
+/home/acy/ros2_ws/install/py_pubsub:/home/acy/ros2_ws/install/my_py_pkg:/home/acy/ros2_ws/install/my_robot_interfaces:/home/acy/ros2_ws/install/my_cpp_pkg:/home/acy/ros2_ws/install/cpp_pubsub:/opt/ros/humble

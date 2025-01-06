@@ -236,6 +236,43 @@ smartphone/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smartphone.dir/build.make CMakeFiles/smartphone.dir/build
 .PHONY : smartphone/fast
 
+#=============================================================================
+# Target rules for targets named hardware_status_publisher
+
+# Build rule for target.
+hardware_status_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hardware_status_publisher
+.PHONY : hardware_status_publisher
+
+# fast build rule for target.
+hardware_status_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hardware_status_publisher.dir/build.make CMakeFiles/hardware_status_publisher.dir/build
+.PHONY : hardware_status_publisher/fast
+
+src/hw_status_publisher.o: src/hw_status_publisher.cpp.o
+.PHONY : src/hw_status_publisher.o
+
+# target to build an object file
+src/hw_status_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hardware_status_publisher.dir/build.make CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.o
+.PHONY : src/hw_status_publisher.cpp.o
+
+src/hw_status_publisher.i: src/hw_status_publisher.cpp.i
+.PHONY : src/hw_status_publisher.i
+
+# target to preprocess a source file
+src/hw_status_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hardware_status_publisher.dir/build.make CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.i
+.PHONY : src/hw_status_publisher.cpp.i
+
+src/hw_status_publisher.s: src/hw_status_publisher.cpp.s
+.PHONY : src/hw_status_publisher.s
+
+# target to generate assembly for a file
+src/hw_status_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hardware_status_publisher.dir/build.make CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.s
+.PHONY : src/hw_status_publisher.cpp.s
+
 src/my_first_node.o: src/my_first_node.cpp.o
 .PHONY : src/my_first_node.o
 
@@ -324,8 +361,12 @@ help:
 	@echo "... my_cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... cpp_node"
+	@echo "... hardware_status_publisher"
 	@echo "... robot_news"
 	@echo "... smartphone"
+	@echo "... src/hw_status_publisher.o"
+	@echo "... src/hw_status_publisher.i"
+	@echo "... src/hw_status_publisher.s"
 	@echo "... src/my_first_node.o"
 	@echo "... src/my_first_node.i"
 	@echo "... src/my_first_node.s"
